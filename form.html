@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form style="background-color: red ">
+        <label>NAME</label>
+        <input type="name" placeholder="Enter Your Name" required autocomplete="additional-name" aria-autocomplete="both" style="background-color:yellow;"><br>
+        <label>FATHER'S NAME</label>
+        <input type="name" placeholder="Enter Father's Name" required style="background-color: yellow;"><br>
+        <label>PHONE NUMBER</label>
+        <input type="number" placeholder="Enter Phone No" required style="background-color: yellow;"><br>
+        <label>EMAIL</label>
+        <input type="email" placeholder="Enter Email" required style="background-color: yellow;"><br>
+        <label>PASSWORD</label>
+        <input type="password" required style="background-color: yellow
+        ;"><br>
+        <label>DOB</label>
+        <input type="date" required><br>
+        <label>AGE</label>
+        <input type="number" required><br>
+        <label>TIME</label>
+        <input type="time"><br>
+        <label>ADDRESS</label>
+        <textarea name="" id="" cols="30" rows="10"  placeholder="Enter Address" required></textarea><br>
+        <label>RANGE</label>
+        <input type="range" required><br>
+        <label>GENDER</label>
+        <input type="radio" name="g">MALE
+        <input type="radio" name="g">FEMALE
+        <input type="radio" name="g">OTHER<br>
+        <label>HOBBY</label>
+        <input type="checkbox">Cricket
+        <input type="checkbox">Football
+        <input type="checkbox">Hocky
+        <input type="checkbox">Basketball
+        <input type="checkbox">Kabaddi<br>
+        <label>HOMETOWN</label>
+        <select> 
+            <option name="Select Hometown" disabled selected>Select Hometown</option>
+            <option>Mahwa</option>
+            <option>Nangal</option>
+            <option>Baswa</option>
+            <option>Sikrai</option>
+            <option>Hindaun</option>
+            <option>Bandukui</option>
+            <option>Manpur</option>
+        </select><br>
+        <!-- <label>STATE</label>
+        <select>
+            <option disabled selected>Select Your State</option>
+            <option>Jaipur</option>
+            <option>Bhopal</option>
+            <option>Jharkhand</option>
+            <option>Delhi</option>
+            <option>Mumbai</option>
+            <option>Chennai</option>
+            <option>Hydrabad</option>
+            <option>calcatta</option>
+        </select> -->
+        <Label>State</Label>
+        <input type="text" list="State">
+        <datalist id="State">
+            <option value="Select Your State"> Select Your State</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Bhopal">Bhopal</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Tripura">Tripura</option>
+
+        </datalist><br>
+        <input type="submit" value="rejister">
+    </body>
+</html>
